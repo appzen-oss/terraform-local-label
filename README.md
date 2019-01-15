@@ -1,7 +1,7 @@
 # terraform-local-label
 
-[![CircleCI](https://circleci.com/gh/devops-workflow/terraform-local-label.svg?style=svg)](https://circleci.com/gh/devops-workflow/terraform-local-label)
-[![Github release](https://img.shields.io/github/release/devops-workflow/terraform-local-label.svg)](https://github.com/devops-workflow/terraform-local-label/releases)
+[![CircleCI](https://circleci.com/gh/appzen-oss/terraform-local-label.svg?style=svg)](https://circleci.com/gh/appzen-oss/terraform-local-label)
+[![Github release](https://img.shields.io/github/release/appzen-oss/terraform-local-label.svg)](https://github.com/appzen-oss/terraform-local-label/releases)
 
 Terraform module to provide consistent label names and tags for resources.
 
@@ -79,7 +79,6 @@ module "label" {
 ```
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-
 ## Inputs
 
 | Name | Description | Type | Default | Required |

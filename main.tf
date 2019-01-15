@@ -60,7 +60,6 @@ locals {
       "Environment",  "${local.env}",
       "Monitor",      "${var.monitor}",
       "Name",         "${local.id}",
-      "Organization", "${local.org}",
       "Owner",        "${var.owner}",
       "Product",      "${var.product}",
       "Service",      "${var.service}",
