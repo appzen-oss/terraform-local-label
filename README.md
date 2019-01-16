@@ -2,6 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/appzen-oss/terraform-local-label.svg?style=svg)](https://circleci.com/gh/appzen-oss/terraform-local-label)
 [![Github release](https://img.shields.io/github/release/appzen-oss/terraform-local-label.svg)](https://github.com/appzen-oss/terraform-local-label/releases)
+[![HitCount](http://hits.dwyl.io/appzen-oss/terraform-local-label.svg)](http://hits.dwyl.io/appzen-oss/terraform-local-label)
 
 Terraform module to provide consistent label names and tags for resources.
 
