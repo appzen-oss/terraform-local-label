@@ -80,25 +80,24 @@ module "label" {
 ```
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|:----:|:-----:|:-----:|
 | attributes | Suffix name with additional attributes (policy, role, etc.) | list | `<list>` | no |
-| component | TAG: Underlying, dedicated piece of service (Cache, DB, ...) | string | `UNDEF` | no |
-| delimiter | Delimiter to be used between `name`, `namespaces`, `attributes`, etc. | string | `-` | no |
-| environment | Environment (ex: `dev`, `qa`, `stage`, `prod`). (Second or top level namespace. Depending on namespacing options) | string | - | yes |
-| monitor | TAG: Should resource be monitored | string | `UNDEF` | no |
-| name | Base name for resource | string | - | yes |
-| namespace-env | Prefix name with the environment. If true, format is: `{env}-{name}` | string | `true` | no |
-| namespace-org | Prefix name with the organization. If true, format is: `{org}-{env namespaced name}`. If both env and org namespaces are used, format will be `{org}-{env}-{name}` | string | `false` | no |
-| organization | Organization name (Top level namespace) | string | `` | no |
-| owner | TAG: Owner of the service | string | `UNDEF` | no |
-| product | TAG: Company/business product | string | `UNDEF` | no |
-| service | TAG: Application (microservice) name | string | `UNDEF` | no |
+| component | TAG: Underlying, dedicated piece of service (Cache, DB, ...) | string | `"UNDEF"` | no |
+| delimiter | Delimiter to be used between `name`, `namespaces`, `attributes`, etc. | string | `"-"` | no |
+| environment | Environment (ex: `dev`, `qa`, `stage`, `prod`). (Second or top level namespace. Depending on namespacing options) | string | n/a | yes |
+| monitor | TAG: Should resource be monitored | string | `"UNDEF"` | no |
+| name | Base name for resource | string | n/a | yes |
+| namespace-env | Prefix name with the environment. If true, format is: `{env}-{name}` | string | `"true"` | no |
+| namespace-org | Prefix name with the organization. If true, format is: `{org}-{env namespaced name}`. If both env and org namespaces are used, format will be `{org}-{env}-{name}` | string | `"false"` | no |
+| organization | Organization name (Top level namespace) | string | `""` | no |
+| owner | TAG: Owner of the service | string | `"UNDEF"` | no |
+| product | TAG: Company/business product | string | `"UNDEF"` | no |
+| service | TAG: Application (microservice) name | string | `"UNDEF"` | no |
 | tags | A map of additional tags | map | `<map>` | no |
-| team | TAG: Department/team of people responsible for service | string | `UNDEF` | no |
+| team | TAG: Department/team of people responsible for service | string | `"UNDEF"` | no |
 
 ## Outputs
 
